@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html, html body, html body .body, html body .body .app, html body .body .app .mainbox, html body .body .app .mainbox .buttonbox, html body .body .app .mainbox .form, html body .body .app .mainbox .form .main, html body .body .app .emancipationbox, html body .body .app .emancipationbox .paintingbox .infobox, html body .body .app .emancipationbox .textwall {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  justify-content: center; }
+
+html body .body .app .mainbox .buttonbox .button_engine, html body .body .app .mainbox .buttonbox .button_active, html body .body .app .mainbox .form .main .searchbox, html body .body .app .mainbox .form .button_search, html body .body .app .emancipationbox .paintingbox, html body .body .app .emancipationbox .textwall .textbox {
+  border-radius: 1.5rem; }
+
+html body .body .app .mainbox .buttonbox .button_engine, html body .body .app .mainbox .buttonbox .button_active, html body .body .app .mainbox .form .main .searchbox, html body .body .app .mainbox .form .button_search, html body .body .app .emancipationbox .textwall .textbox {
+  padding: 1rem;
+  margin: 1rem; }
+
+html body .body .app .mainbox .buttonbox .button_active, html body .body .app .mainbox .form .main .searchbox, html body .body .app .mainbox .form .button_search, html body .body .app .emancipationbox .paintingbox, html body .body .app .emancipationbox .textwall .textbox {
+  --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); }
+
+html body .body .app .mainbox .buttonbox .button_engine {
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); }
+
+html {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background-color: #e6e6e6; }
+  html ::selection {
+    background-color: #000000;
+    color: #ffffff; }
+  html p,
+  html h1,
+  html h2,
+  html h3,
+  html h4,
+  html h5,
+  html h6 {
+    margin: 0;
+    padding: 0; }
+  html body {
+    width: 100%; }
+    html body .body {
+      flex-direction: column;
+      min-width: 18rem;
+      max-width: 84rem;
+      overflow-wrap: break-word; }
+      html body .body .app {
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 2rem; }
+        html body .body .app .heading {
+          padding-top: 2rem;
+          padding-bottom: 4rem;
+          font-size: 2rem;
+          font-weight: bolder; }
+        html body .body .app .mainbox {
+          flex-direction: column;
+          width: 100%;
+          margin: 1rem;
+          margin-bottom: 2rem; }
+          html body .body .app .mainbox .buttonbox {
+            min-width: 18rem;
+            max-width: 40rem; }
+            html body .body .app .mainbox .buttonbox .button_engine {
+              width: 9rem;
+              margin-left: 0.5rem;
+              margin-right: 0.5rem;
+              border-style: none;
+              color: #ffffff;
+              background-color: #076679; }
+            html body .body .app .mainbox .buttonbox .button_active {
+              border-style: none;
+              font-weight: bold;
+              color: #000000;
+              background-color: #0dccf2;
+              transition: all 150ms; }
+            html body .body .app .mainbox .buttonbox .button_engine:hover,
+            html body .body .app .mainbox .buttonbox .button_active:hover {
+              color: #000000;
+              background-color: #86e5f8;
+              cursor: pointer;
+              transition: all 150ms; }
+          html body .body .app .mainbox .form {
+            align-items: flex-end;
+            min-width: 18rem;
+            max-width: 40rem;
+            margin-top: 1rem; }
+            html body .body .app .mainbox .form .main {
+              flex-direction: column;
+              justify-content: flex-start; }
+              html body .body .app .mainbox .form .main label {
+                padding: 1rem;
+                padding-bottom: 0px; }
+              html body .body .app .mainbox .form .main .searchbox {
+                width: 16rem;
+                margin-left: 0.5rem;
+                margin-right: 0.5rem;
+                border-style: none;
+                font-weight: bold; }
+            html body .body .app .mainbox .form .button_search {
+              width: 6rem;
+              border-style: none;
+              font-weight: bold;
+              color: #000000;
+              background-color: #0dccf2; }
+            html body .body .app .mainbox .form .button_search:hover {
+              border-style: none;
+              color: #000000;
+              background-color: #86e5f8;
+              cursor: pointer;
+              transition: all 150ms; }
+        html body .body .app .emancipationbox {
+          justify-content: center;
+          min-width: 18rem; }
+          html body .body .app .emancipationbox .paintingbox {
+            width: 100%;
+            margin: 1rem; }
+            html body .body .app .emancipationbox .paintingbox img {
+              width: 100%;
+              height: auto;
+              border-top-left-radius: 1.5rem;
+              border-top-right-radius: 1.5rem; }
+            html body .body .app .emancipationbox .paintingbox .infobox {
+              justify-content: flex-start;
+              padding: 1rem;
+              border-bottom-left-radius: 1.5rem;
+              border-bottom-right-radius: 1.5rem;
+              background-color: #ffffff; }
+              html body .body .app .emancipationbox .paintingbox .infobox .painter {
+                font-weight: bold; }
+              html body .body .app .emancipationbox .paintingbox .infobox .artwork {
+                margin-left: 0.25rem; }
+          html body .body .app .emancipationbox .textwall {
+            flex-direction: column;
+            width: 100%;
+            padding: 1rem;
+            margin: 1rem; }
+            html body .body .app .emancipationbox .textwall .textbox {
+              width: 100%;
+              background-color: #ffffff; }
+              html body .body .app .emancipationbox .textwall .textbox .philosopher,
+              html body .body .app .emancipationbox .textwall .textbox .poet {
+                float: right;
+                margin-top: 1rem;
+                font-weight: bold; }
+            html body .body .app .emancipationbox .textwall .textbox:first-child {
+              margin-top: -1rem; }
+
+@media only screen and (min-device-width: 1200px) {
+  html body .body .app .emancipationbox {
+    align-items: flex-start;
+    align-self: flex-start;
+    width: 100%; }
+    html body .body .app .emancipationbox .paintingbox {
+      width: 60%; }
+    html body .body .app .emancipationbox .textwall {
+      width: 30%; } }
+
+/*# sourceMappingURL=homepage.min.css.map */

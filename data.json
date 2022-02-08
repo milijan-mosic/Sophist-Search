@@ -1,0 +1,23 @@
+{
+	"Number of Entries": 1,
+
+	"1": {
+		"masterpiece": {
+			"painter": "Giovanni Battista Piranesi",
+			"artwork": "Pyramid",
+			"url": "gallery/Piranesi - Pyramid.jpg"
+		},
+
+		"advice": {
+			"philosopher": "Aristotle",
+			"quote": "To write well, express yourself like the common people, but think like a wise man."
+		},
+
+		"haiku": {
+			"poet": "Matsuo Bashō",
+			"poem": "No one travels. Along this way but I, This autumn evening."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	}
+}

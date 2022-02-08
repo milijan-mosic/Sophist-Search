@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Sophist Search</title>
+		<meta name="description" content="Emancipate yourself while surfing the web!" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Icon made by https://www.flaticon.com/authors/rukanicon -->
+		<link rel="icon" href="{{ url_for('static', filename='flaticon.png') }}" />
+		<link rel="apple-touch-icon" href="{{ url_for('static', filename='flaticon.png') }}" />
+
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.min.css') }}" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.min.css') }}" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.min.css') }}" />
+	</head>
+
+	<body>
+		<div class="body">
+			<div class="app">
+				<h1 class="heading">Sophist Search :3</h1>
+
+				<div class="mainbox">
+					<div class="buttonbox">
+						<button class="button_active button_engine" id="btn_ddg" onclick="ActivateButton(0)">DuckDuckGo</button>
+
+						<button class="button_engine" id="btn_srx" onclick="ActivateButton(1)">Searx</button>
+
+						<button class="button_engine" id="btn_swc" onclick="ActivateButton(2)">Swisscows</button>
+
+						<button class="button_engine" id="btn_eco" onclick="ActivateButton(3)">Ecosia</button>
+					</div>
+
+					<form action="" name="search_url" class="form" id="search_form" method="GET">
+						<div class="main">
+							<label for="searchbox">News? Blogs? Recipes?</label>
+							<input name="q" class="searchbox" id="searchbox" />
+						</div>
+
+						<input type="submit" value="Surf" class="button_search" id="btn_search" />
+					</form>
+				</div>
+
+				<div class="emancipationbox">
+					<div class="paintingbox">
+						<img
+							src="{{ url_for('static', filename='gallery/example.jpg') }}"
+							alt="An image of a famous painting. Check paragraphs bellow for more info."
+						/>
+						<div class="infobox">
+							<p class="painter" id="painter">Giovanni Battista Piranesi</p>
+							<p class="artwork" id="artwork">- Pyramid</p>
+						</div>
+					</div>
+
+					<div class="textwall">
+						<div class="textbox">
+							<p>"{{quote}}"</p>
+							<p class="philosopher">- {{philosopher}}</p>
+						</div>
+
+						<div class="textbox">
+							<p>"{{poem}}"</p>
+							<p class="poet">- {{poet}}</p>
+						</div>
+
+						<div class="textbox">
+							<p>{{prayer}}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script defer src="{{ url_for('static', filename='js/main.js') }}"></script>
+	</body>
+</html>
