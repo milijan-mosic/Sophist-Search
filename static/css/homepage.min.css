@@ -8,7 +8,7 @@ html, html body, html body .body, html body .body .app, html body .body .app .ma
   align-content: center;
   justify-content: center; }
 
-html body .body .app .mainbox .buttonbox .button_engine, html body .body .app .mainbox .buttonbox .button_active, html body .body .app .mainbox .form .main .searchbox, html body .body .app .mainbox .form .button_search, html body .body .app .emancipationbox .paintingbox, html body .body .app .emancipationbox .textwall .textbox {
+html body .body .app .button_mode, html body .body .app .mainbox .buttonbox .button_engine, html body .body .app .mainbox .buttonbox .button_active, html body .body .app .mainbox .form .main .searchbox, html body .body .app .mainbox .form .button_search, html body .body .app .emancipationbox .paintingbox, html body .body .app .emancipationbox .textwall .textbox {
   border-radius: 1.5rem; }
 
 html body .body .app .mainbox .buttonbox .button_engine, html body .body .app .mainbox .buttonbox .button_active, html body .body .app .mainbox .form .main .searchbox, html body .body .app .mainbox .form .button_search, html body .body .app .emancipationbox .textwall .textbox {
@@ -19,18 +19,48 @@ html body .body .app .mainbox .buttonbox .button_active, html body .body .app .m
   --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); }
 
-html body .body .app .mainbox .buttonbox .button_engine {
+html body .body .app .button_mode, html body .body .app .mainbox .buttonbox .button_engine {
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); }
+
+.light-bg {
+  background-color: #e6e6e6;
+  color: #000000; }
+  .light-bg ::selection {
+    background-color: #000000;
+    color: #ffffff; }
+  .light-bg .button_mode {
+    background-color: #000000;
+    color: #ffffff; }
+  .light-bg .searchbox {
+    background-color: #ffffff;
+    color: #000000; }
+  .light-bg .textbox {
+    background-color: #ffffff; }
+  .light-bg .infobox {
+    background-color: #ffffff; }
+
+.dark-bg {
+  background-color: #1a1a1a;
+  color: #ffffff; }
+  .dark-bg ::selection {
+    background-color: #ffffff;
+    color: #000000; }
+  .dark-bg .button_mode {
+    background-color: #ffffff;
+    color: #000000; }
+  .dark-bg .searchbox {
+    background-color: #333333;
+    color: #ffffff; }
+  .dark-bg .textbox {
+    background-color: #333333; }
+  .dark-bg .infobox {
+    background-color: #333333; }
 
 html {
   width: 100%;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
-  background-color: #e6e6e6; }
-  html ::selection {
-    background-color: #000000;
-    color: #ffffff; }
+  font-size: 16px; }
   html p,
   html h1,
   html h2,
@@ -52,10 +82,15 @@ html {
         width: 100%;
         padding-bottom: 2rem; }
         html body .body .app .heading {
-          padding-top: 2rem;
-          padding-bottom: 4rem;
+          margin-top: 2rem;
+          margin-bottom: 1rem;
           font-size: 2rem;
           font-weight: bolder; }
+        html body .body .app .button_mode {
+          width: 2rem;
+          height: 2rem;
+          margin-bottom: 4rem;
+          border-style: none; }
         html body .body .app .mainbox {
           flex-direction: column;
           width: 100%;
@@ -127,8 +162,7 @@ html {
               justify-content: flex-start;
               padding: 1rem;
               border-bottom-left-radius: 1.5rem;
-              border-bottom-right-radius: 1.5rem;
-              background-color: #ffffff; }
+              border-bottom-right-radius: 1.5rem; }
               html body .body .app .emancipationbox .paintingbox .infobox .painter {
                 font-weight: bold; }
               html body .body .app .emancipationbox .paintingbox .infobox .artwork {
@@ -139,8 +173,7 @@ html {
             padding: 1rem;
             margin: 1rem; }
             html body .body .app .emancipationbox .textwall .textbox {
-              width: 100%;
-              background-color: #ffffff; }
+              width: 100%; }
               html body .body .app .emancipationbox .textwall .textbox .philosopher,
               html body .body .app .emancipationbox .textwall .textbox .poet {
                 float: right;
@@ -150,6 +183,8 @@ html {
               margin-top: -1rem; }
 
 @media only screen and (min-device-width: 1200px) {
+  html body .body .app .mainbox .form .main .searchbox {
+    width: 24rem; }
   html body .body .app .emancipationbox {
     align-items: flex-start;
     align-self: flex-start;

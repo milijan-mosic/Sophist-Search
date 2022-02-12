@@ -15,8 +15,6 @@ def RandomNumber():
 db_load = open('data.json')
 db_prep = json.load(db_load)
 db_load.close()
-sophist_box = ""
-lucky_number = "0"
 
 
 # ROUTE

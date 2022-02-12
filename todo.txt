@@ -1,8 +1,3 @@
-MVP:
-{
-	Add dark mode,
-	Change prayers to few paragraphs from books.
-}
+To do:			Change prayers to few paragraphs from books.
 
-
-export FLASK_ENV=development ; export FLASK_APP=app ; flask run
+Run & debug:	export FLASK_ENV=development ; export FLASK_APP=app ; flask run

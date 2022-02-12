@@ -13,6 +13,62 @@ $main: #0dccf2;
 $dark-main: #076679;
 $light-main: #86e5f8;
 
+.light-bg {
+	background-color: $light-level-1;
+	color: $black;
+
+	::selection {
+		background-color: $black;
+		color: $white;
+	}
+
+	.button_mode {
+		background-color: $black;
+		color: $white;
+	}
+
+	.searchbox {
+		background-color: $white;
+		color: $black;
+	}
+
+	.textbox {
+		background-color: $white;
+	}
+
+	.infobox {
+		background-color: $white;
+	}
+}
+
+.dark-bg {
+	background-color: $dark-level-1;
+	color: $white;
+
+	::selection {
+		background-color: $white;
+		color: $black;
+	}
+
+	.button_mode {
+		background-color: $white;
+		color: $black;
+	}
+
+	.searchbox {
+		background-color: $dark-level-2;
+		color: $white;
+	}
+
+	.textbox {
+		background-color: $dark-level-2;
+	}
+
+	.infobox {
+		background-color: $dark-level-2;
+	}
+}
+
 html {
 	@extend %flex;
 
@@ -20,13 +76,6 @@ html {
 
 	font-family: "Poppins", sans-serif;
 	font-size: 16px;
-
-	background-color: $light-level-1;
-
-	::selection {
-		background-color: $black;
-		color: $white;
-	}
 
 	p,
 	h1,
@@ -63,11 +112,21 @@ html {
 				padding-bottom: 2rem;
 
 				.heading {
-					padding-top: 2rem;
-					padding-bottom: 4rem;
+					margin-top: 2rem;
+					margin-bottom: 1rem;
 
 					font-size: 2rem;
 					font-weight: bolder;
+				}
+
+				.button_mode {
+					@extend %rounded, %shadow-small;
+
+					width: 2rem;
+					height: 2rem;
+
+					margin-bottom: 4rem;
+					border-style: none;
 				}
 
 				.mainbox {
@@ -211,8 +270,6 @@ html {
 							border-bottom-left-radius: 1.5rem;
 							border-bottom-right-radius: 1.5rem;
 
-							background-color: $white;
-
 							.painter {
 								font-weight: bold;
 							}
@@ -236,8 +293,6 @@ html {
 							@extend %p-m, %rounded, %shadow-big;
 
 							width: 100%;
-
-							background-color: $white;
 
 							.philosopher,
 							.poet {
@@ -269,6 +324,16 @@ $small: 600px; // 320 to 600  = mobile
 		body {
 			.body {
 				.app {
+					.mainbox {
+						.form {
+							.main {
+								.searchbox {
+									width: 24rem;
+								}
+							}
+						}
+					}
+
 					.emancipationbox {
 						align-items: flex-start;
 						align-self: flex-start;

@@ -15,28 +15,33 @@
 		<link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.min.css') }}" />
 	</head>
 
-	<body>
+	<body class="light-bg" id="body">
 		<div class="body">
 			<div class="app">
 				<h1 class="heading">Sophist Search :3</h1>
+				<button class="button_mode" id="btn_mode" onclick="ChangeMode()">
+					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+						<path
+							id="svg-path"
+							fill-rule="evenodd"
+							d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+				</button>
 
 				<div class="mainbox">
 					<div class="buttonbox">
 						<button class="button_active button_engine" id="btn_ddg" onclick="ActivateButton(0)">DuckDuckGo</button>
-
 						<button class="button_engine" id="btn_srx" onclick="ActivateButton(1)">Searx</button>
-
 						<button class="button_engine" id="btn_swc" onclick="ActivateButton(2)">Swisscows</button>
-
 						<button class="button_engine" id="btn_eco" onclick="ActivateButton(3)">Ecosia</button>
 					</div>
-
 					<form action="" name="search_url" class="form" id="search_form" method="GET">
 						<div class="main">
 							<label for="searchbox">News? Blogs? Recipes?</label>
 							<input name="q" class="searchbox" id="searchbox" />
 						</div>
-
 						<input type="submit" value="Surf" class="button_search" id="btn_search" />
 					</form>
 				</div>
@@ -58,12 +63,10 @@
 							<p>"{{quote}}"</p>
 							<p class="philosopher">- {{philosopher}}</p>
 						</div>
-
 						<div class="textbox">
 							<p>"{{poem}}"</p>
 							<p class="poet">- {{poet}}</p>
 						</div>
-
 						<div class="textbox">
 							<p>{{prayer}}</p>
 						</div>
