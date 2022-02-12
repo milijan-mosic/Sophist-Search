@@ -104,18 +104,18 @@ html {
               margin-left: 0.5rem;
               margin-right: 0.5rem;
               border-style: none;
-              color: #ffffff;
-              background-color: #076679; }
+              color: #000000;
+              background-color: #ffe7ad; }
             html body .body .app .mainbox .buttonbox .button_active {
               border-style: none;
               font-weight: bold;
               color: #000000;
-              background-color: #0dccf2;
+              background-color: #ffbc1f;
               transition: all 150ms; }
             html body .body .app .mainbox .buttonbox .button_engine:hover,
             html body .body .app .mainbox .buttonbox .button_active:hover {
               color: #000000;
-              background-color: #86e5f8;
+              background-color: #ffbc1f;
               cursor: pointer;
               transition: all 150ms; }
           html body .body .app .mainbox .form {
@@ -140,11 +140,11 @@ html {
               border-style: none;
               font-weight: bold;
               color: #000000;
-              background-color: #0dccf2; }
+              background-color: #ffbc1f; }
             html body .body .app .mainbox .form .button_search:hover {
               border-style: none;
               color: #000000;
-              background-color: #86e5f8;
+              background-color: #ffbc1f;
               cursor: pointer;
               transition: all 150ms; }
         html body .body .app .emancipationbox {

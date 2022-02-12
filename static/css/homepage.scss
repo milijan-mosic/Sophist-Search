@@ -9,9 +9,9 @@ $white: #ffffff;
 $light-level-1: #e6e6e6;
 $light-level-2: #cccccc;
 
-$main: #0dccf2;
-$dark-main: #076679;
-$light-main: #86e5f8;
+$main: #ffbc1f;
+$dark-main: #ffe7ad;
+$light-main: #ffbc1f;
 
 .light-bg {
 	background-color: $light-level-1;
@@ -154,7 +154,7 @@ html {
 
 							border-style: none;
 
-							color: $white;
+							color: $black;
 							background-color: $dark-main;
 						}
 
