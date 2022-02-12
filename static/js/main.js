@@ -21,6 +21,7 @@ function ActivateButton(id) {
 			btn_swc.classList.remove("button_active");
 			btn_eco.classList.remove("button_active");
 			searchbox.setAttribute("name", "q");
+			localStorage.setItem("search_engine", "DDG");
 			break;
 		case 1:
 			btn_ddg.classList.remove("button_active");
@@ -28,6 +29,7 @@ function ActivateButton(id) {
 			btn_swc.classList.remove("button_active");
 			btn_eco.classList.remove("button_active");
 			searchbox.setAttribute("name", "q");
+			localStorage.setItem("search_engine", "SRX");
 			break;
 		case 2:
 			btn_ddg.classList.remove("button_active");
@@ -35,6 +37,7 @@ function ActivateButton(id) {
 			btn_swc.classList.add("button_active");
 			btn_eco.classList.remove("button_active");
 			searchbox.setAttribute("name", "query");
+			localStorage.setItem("search_engine", "SWC");
 			break;
 		case 3:
 			btn_ddg.classList.remove("button_active");
@@ -42,10 +45,26 @@ function ActivateButton(id) {
 			btn_swc.classList.remove("button_active");
 			btn_eco.classList.add("button_active");
 			searchbox.setAttribute("name", "q");
+			localStorage.setItem("search_engine", "ECO");
 			break;
 	}
 	search_form.action = search_engines_urls[id];
 }
 
-ActivateButton(0);
+function ReturningUser() {
+	if (localStorage.getItem("search_engine") == "DDG") {
+		ActivateButton(0);
+	}
+	if (localStorage.getItem("search_engine") == "SRX") {
+		ActivateButton(1);
+	}
+	if (localStorage.getItem("search_engine") == "SWC") {
+		ActivateButton(2);
+	}
+	if (localStorage.getItem("search_engine") == "ECO") {
+		ActivateButton(3);
+	}
+}
+
+ReturningUser();
 searchbox.focus();

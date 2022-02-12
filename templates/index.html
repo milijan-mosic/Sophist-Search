@@ -44,12 +44,12 @@
 				<div class="emancipationbox">
 					<div class="paintingbox">
 						<img
-							src="{{ url_for('static', filename='gallery/example.jpg') }}"
+							src="{{ url_for('static', filename=url) }}"
 							alt="An image of a famous painting. Check paragraphs bellow for more info."
 						/>
 						<div class="infobox">
-							<p class="painter" id="painter">Giovanni Battista Piranesi</p>
-							<p class="artwork" id="artwork">- Pyramid</p>
+							<p class="painter" id="painter">{{ painter }}</p>
+							<p class="artwork" id="artwork">- {{ artwork }}</p>
 						</div>
 					</div>
 

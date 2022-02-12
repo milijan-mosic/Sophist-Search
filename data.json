@@ -1,11 +1,11 @@
 {
-	"Number of Entries": 1,
+	"Number of Entries": 15,
 
-	"1": {
+	"0": {
 		"masterpiece": {
-			"painter": "Giovanni Battista Piranesi",
-			"artwork": "Pyramid",
-			"url": "gallery/Piranesi - Pyramid.jpg"
+			"painter": "Vincent van Gogh",
+			"artwork": "Starry Night",
+			"url": "gallery/starry_night.webp"
 		},
 
 		"advice": {
@@ -16,6 +16,306 @@
 		"haiku": {
 			"poet": "Matsuo Bashō",
 			"poem": "No one travels. Along this way but I, This autumn evening."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"1": {
+		"masterpiece": {
+			"painter": "Pablo Picasso",
+			"artwork": "Guernica",
+			"url": "gallery/guernica.webp"
+		},
+
+		"advice": {
+			"philosopher": "Marcus Aurelius",
+			"quote": "If you are distressed by anything external, the pain is not due to the thing itself, but to your estimate of it; and this you have the power to revoke at any moment."
+		},
+
+		"haiku": {
+			"poet": "Matsuo Bashō",
+			"poem": "An old silent pond. A frog jumps into the pond - Splash! Silence again."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"2": {
+		"masterpiece": {
+			"painter": "Claude Monet",
+			"artwork": "The Red Boats Argenteuil",
+			"url": "gallery/the_red_boats_argenteuil.webp"
+		},
+
+		"advice": {
+			"philosopher": "Lucius Annaeus Seneca",
+			"quote": "Until we have begun to go without them, we fail to realize how unnecessary many things are. We've been using them not because we needed them but because we had them."
+		},
+
+		"haiku": {
+			"poet": "Yosa Buson",
+			"poem": "The light of a candle is transferred to another candle - Spring twilight."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"3": {
+		"masterpiece": {
+			"painter": "Rene Magritte",
+			"artwork": "The Lovers",
+			"url": "gallery/the_lovers.webp"
+		},
+
+		"advice": {
+			"philosopher": "Marcus Aurelius",
+			"quote": "The things you think about determine the quality of your mind."
+		},
+
+		"haiku": {
+			"poet": "Katsushika Hokusai",
+			"poem": "I write, erase, rewrite, erase again, and then a poppy blooms."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"4": {
+		"masterpiece": {
+			"painter": "Francisco Goya",
+			"artwork": "Two Old Men",
+			"url": "gallery/two_old_men.webp"
+		},
+
+		"advice": {
+			"philosopher": "Lucius Annaeus Seneca",
+			"quote": "It is not the man who has too little that is poor, but the one who hankers after more."
+		},
+
+		"haiku": {
+			"poet": "Natsume Sōseki",
+			"poem": "Over the wintry forest, winds howl in rage with no leaves to blow."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"5": {
+		"masterpiece": {
+			"painter": "Francisco Goya",
+			"artwork": "Saturn Devouring His Son",
+			"url": "gallery/saturn_devouring_his_son.webp"
+		},
+
+		"advice": {
+			"philosopher": "George Bernard Shaw",
+			"quote": "The reasonable man adapts himself to the world: the unreasonable one persists in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man."
+		},
+
+		"haiku": {
+			"poet": "Sonia Sanchez",
+			"poem": "Love between us is speech and breath. Loving you is a long river running."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"6": {
+		"masterpiece": {
+			"painter": "Vincent Van Gogh",
+			"artwork": "Wheat Field With Cypress Trees",
+			"url": "gallery/wheat_field_with_cypress_trees.webp"
+		},
+
+		"advice": {
+			"philosopher": "Plato",
+			"quote": "The price good men pay for indifference to public affairs is to be ruled by evil men."
+		},
+
+		"haiku": {
+			"poet": "Yosa Buson",
+			"poem": "Picking autumn plums. My wrinkled hands once again grow fragrant."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"7": {
+		"masterpiece": {
+			"painter": "Leonardo da Vinci",
+			"artwork": "The Virgin and Child with Saint Anne",
+			"url": "gallery/the_virgin_and_child_with_saint_anne.webp"
+		},
+
+		"advice": {
+			"philosopher": "Plato",
+			"quote": "Do not train a child to learn by force or harshness; but direct them to it by what amuses their minds, so that you may be better able to discover with accuracy the peculiar bent of the genius of each."
+		},
+
+		"haiku": {
+			"poet": "Uejima Onitsura",
+			"poem": "These useless dreams, alas! Over fields of wilted grass winds whisper as they pass."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"8": {
+		"masterpiece": {
+			"painter": "Caravaggio",
+			"artwork": "Saint Jerome Writing",
+			"url": "gallery/saint_jerome_writting.webp"
+		},
+
+		"advice": {
+			"philosopher": "Socrates",
+			"quote": "Be kind, for everyone you meet is fighting a hard battle."
+		},
+
+		"haiku": {
+			"poet": "Matsuo Bashō",
+			"poem": "Whistle on, twilight whippoorwill, solemn evangelist of loneliness."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"9": {
+		"masterpiece": {
+			"painter": "Salvador Dali",
+			"artwork": "Persistance Of Memory",
+			"url": "gallery/persistance_of_memory.webp"
+		},
+
+		"advice": {
+			"philosopher": "Epictetus",
+			"quote": "If anyone tells you that a certain person speaks ill of you, do not make excuses about what is said of you but answer, 'He was ignorant of my other faults, else he would not have mentioned these alone.'"
+		},
+
+		"haiku": {
+			"poet": "Ranko Takakuwa",
+			"poem": "All evening the softest sound - the cadence of the white camellia petals falling."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"10": {
+		"masterpiece": {
+			"painter": "Giovanni Battista Piranesi",
+			"artwork": "Architecture, Perspectives, Grotesques, Antiquities",
+			"url": "gallery/architecture_perspectives_grotesques_antiquities.webp"
+		},
+
+		"advice": {
+			"philosopher": "Fyodor Dostoevsky",
+			"quote": "Man is a mystery. It needs to be unravelled, and if you spend your whole life unravelling it, don't say that you've wasted time. I am studying that mystery because I want to be a human being."
+		},
+
+		"haiku": {
+			"poet": "Langston Hughes",
+			"poem": "The calm, cool face of the river asked me for a kiss."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"11": {
+		"masterpiece": {
+			"painter": "Théodore Géricault",
+			"artwork": "The Raft Of The Medusa",
+			"url": "gallery/the_raft_of_the_medusa.webp"
+		},
+
+		"advice": {
+			"philosopher": "Epictetus",
+			"quote": "Don't explain your philosophy. Embody it."
+		},
+
+		"haiku": {
+			"poet": "Ono no Komachi",
+			"poem": "I had thought to pluck the flower of forgetfulness only to find it already blossoming in his heart."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"12": {
+		"masterpiece": {
+			"painter": "Giovanni Battista Piranesi",
+			"artwork": "The Pyramid of Caius Cestius",
+			"url": "gallery/the_pyramid_of_caius_cestius.webp"
+		},
+
+		"advice": {
+			"philosopher": "Aristotle",
+			"quote": "The aim of art is to represent not the outward appearance of things, but their inward significance."
+		},
+
+		"haiku": {
+			"poet": "Taira no Tadanori",
+			"poem": "Overtaken by darkness, I will lodge under a tree's branches; cherry blossoms will cushion me tonight."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"13": {
+		"masterpiece": {
+			"painter": "Caspar David Friedrich",
+			"artwork": "The Wanderer Above The Sea Of Fog",
+			"url": "gallery/the_wanderer_above_the_sea_of_fog.webp"
+		},
+
+		"advice": {
+			"philosopher": "Baruch Spinoza",
+			"quote": "The highest activity a human being can attain is learning for understanding, because to understand is to be free."
+		},
+
+		"haiku": {
+			"poet": "Ôuchi Yoshitaka",
+			"poem": "Both victor and vanquished are dewdrops, flashes of lightning, as we envision this life."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"14": {
+		"masterpiece": {
+			"painter": "Joseph Wright of Derby",
+			"artwork": "A Lighthouse On Fire At Night",
+			"url": "gallery/a_lighthouse_on_fire_at_night.webp"
+		},
+
+		"advice": {
+			"philosopher": "Aristotle",
+			"quote": "To write well, express yourself like the common people, but think like a wise man."
+		},
+
+		"haiku": {
+			"poet": "Yamazaki Sōkan",
+			"poem": "Soundlessly they go, the herons passing by: arrows of snow filling the sky."
+		},
+
+		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+	},
+
+	"15": {
+		"masterpiece": {
+			"painter": "Joseph Wright of Derby",
+			"artwork": "Lake by Moonlight with Castle on Hill",
+			"url": "gallery/lake_by_moonlight_with_castle_on_hill.webp"
+		},
+
+		"advice": {
+			"philosopher": "Epicurus",
+			"quote": "Death, therefore, the most awful of evils, is nothing to us, seeing that, when we are, death is not come, and, when death is come, we are not."
+		},
+
+		"haiku": {
+			"poet": "Tokugen",
+			"poem": "My life was mere lunacy until the moon shone tonight."
 		},
 
 		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."

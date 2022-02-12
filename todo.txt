@@ -1,50 +1,8 @@
-84 kb site...
-
 MVP:
 {
-	Design 404 page.
-
-	Add left-side menu to explain everything,
-	Responsive design for tablets and mobile phones,
 	Add dark mode,
-	Fix code to be human readable (90% done, can be better).
-
-	Search should open in the same tab,
-	'Clear' button to the left of the 'Search' field,
-	While clicking on 'clear' button or loading page it should focus on search bar immidiately,
-	SwissCow search doesn't work,
-	Can Ecosia search directly, not prompting for input one more time.
-
-	Local storage -> Dark/Light Mode, Default Search Engine;
-	
-	REDUCE FLATICON SIZE TO 64x64 OR SMALLER!
+	Change prayers to few paragraphs from books.
 }
 
 
-
-
-PLAN:
-{
-	script for 
-	{
-		ssh into server's folder
-		stop flask
-		rsync data.json from my laptop
-		reseting flask
-		exit terminal
-	}
-
-	export FLASK_ENV=development ; export FLASK_APP=app ; flask run
-		Fix this for Prod...
-}
-
-
-
-
-HARD:
-{
-	URL for picture should be dynamic...
-	<br> Haiku??
-
-	MAKE IT PWA!
-}
+export FLASK_ENV=development ; export FLASK_APP=app ; flask run

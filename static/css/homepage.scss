@@ -280,6 +280,9 @@ $small: 600px; // 320 to 600  = mobile
 						}
 
 						.textwall {
+							align-items: flex-start;
+							align-self: flex-start;
+
 							width: 30%;
 						}
 					}

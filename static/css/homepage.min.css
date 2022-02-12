@@ -157,6 +157,8 @@ html {
     html body .body .app .emancipationbox .paintingbox {
       width: 60%; }
     html body .body .app .emancipationbox .textwall {
+      align-items: flex-start;
+      align-self: flex-start;
       width: 30%; } }
 
 /*# sourceMappingURL=homepage.min.css.map */
