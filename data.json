@@ -18,7 +18,26 @@
 			"poem": "No one travels. Along this way but I, This autumn evening."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "You often complain to me that people “don't understand” you. But even Goethe and Newton made no such complaints. Christ did, true, but he was talking about his doctrine, not his ego. People understand you all too well. If you don't understand yourself, then it's nobody else's fault.",
+			"author": "Anton Chekhov",
+			"book": "from a letter to his brother Nikolay Pavlovich Chekhov"
+		},
+
+		"books": {
+			"book1": {
+				"author": "Thomas Mann",
+				"name": "Death In Venice"
+			},
+			"book2": {
+				"author": "Witold Gombrowicz",
+				"name": "Cosmos"
+			},
+			"book3": {
+				"author": "Virginia Woolf",
+				"name": "To The Lighthouse"
+			}
+		}
 	},
 
 	"1": {
@@ -38,7 +57,30 @@
 			"poem": "An old silent pond. A frog jumps into the pond - Splash! Silence again."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"book_quote": {
+				"paragraph": "",
+				"author": "",
+				"book": ""
+			},
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Plato",
+				"name": "The Republic"
+			},
+			"book2": {
+				"author": "Ray Bradbury",
+				"name": "Fahrenheit 451"
+			},
+			"book3": {
+				"author": "Italo Calvino",
+				"name": "If on a winter's night a traveler"
+			}
+		}
 	},
 
 	"2": {
@@ -58,7 +100,26 @@
 			"poem": "The light of a candle is transferred to another candle - Spring twilight."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "",
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Erich Fromm",
+				"name": "The art of loving"
+			},
+			"book2": {
+				"author": "Erich Fromm",
+				"name": "To Have or to Be"
+			},
+			"book3": {
+				"author": "The Gentle Spirit",
+				"name": "Fyodor Dostoevsky"
+			}
+		}
 	},
 
 	"3": {
@@ -78,7 +139,26 @@
 			"poem": "I write, erase, rewrite, erase again, and then a poppy blooms."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "",
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Anton Chekhov",
+				"name": "Uncle Vanya"
+			},
+			"book2": {
+				"author": "Mikhail Bulgakov",
+				"name": "The Master and Margarita"
+			},
+			"book3": {
+				"author": "Henri Bergson",
+				"name": "Laughter: an essay on the meaning of the comic"
+			}
+		}
 	},
 
 	"4": {
@@ -98,7 +178,26 @@
 			"poem": "Over the wintry forest, winds howl in rage with no leaves to blow."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "",
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Pierre Bayard",
+				"name": "How to talk about books you haven't read"
+			},
+			"book2": {
+				"author": "Edward Albee",
+				"name": "Who's afraid of Virginia Woolf?"
+			},
+			"book3": {
+				"author": "Nikolai Gogol",
+				"name": "The Overcoat"
+			}
+		}
 	},
 
 	"5": {
@@ -118,7 +217,26 @@
 			"poem": "Love between us is speech and breath. Loving you is a long river running."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "",
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Leonid Andreyev",
+				"name": "Lazarus"
+			},
+			"book2": {
+				"author": "Fyodor Dostoevsky",
+				"name": "The brothers Karamazov"
+			},
+			"book3": {
+				"author": "Thomas Mann",
+				"name": "The Magic Mountain"
+			}
+		}
 	},
 
 	"6": {
@@ -138,7 +256,26 @@
 			"poem": "Picking autumn plums. My wrinkled hands once again grow fragrant."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "",
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Meša Selimović",
+				"name": "Death and the Dervish"
+			},
+			"book2": {
+				"author": "D. M. Thomas",
+				"name": "The White Hotel"
+			},
+			"book3": {
+				"author": "Béla Hamvas",
+				"name": "The Philosophy of Wine"
+			}
+		}
 	},
 
 	"7": {
@@ -158,7 +295,26 @@
 			"poem": "These useless dreams, alas! Over fields of wilted grass winds whisper as they pass."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "",
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Sylvia Plath",
+				"name": "The Bell Jar"
+			},
+			"book2": {
+				"author": "William Faulkner",
+				"name": "As I Lay Dying"
+			},
+			"book3": {
+				"author": "Raymond Queneau",
+				"name": "Exercises in style"
+			}
+		}
 	},
 
 	"8": {
@@ -178,7 +334,26 @@
 			"poem": "Whistle on, twilight whippoorwill, solemn evangelist of loneliness."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "",
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Markus Zusak",
+				"name": "The Book Thief"
+			},
+			"book2": {
+				"author": "Dejan Stojiljković",
+				"name": "Konstantinovo raskršće"
+			},
+			"book3": {
+				"author": "Peter Handke",
+				"name": "The Afternoon of a Writer"
+			}
+		}
 	},
 
 	"9": {
@@ -198,7 +373,26 @@
 			"poem": "All evening the softest sound - the cadence of the white camellia petals falling."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "",
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Leonid Andreyev",
+				"name": "Satan's Diary"
+			},
+			"book2": {
+				"author": "Albert Camus",
+				"name": "The Plague"
+			},
+			"book3": {
+				"author": "Curzio Malaparte",
+				"name": "Kaputt"
+			}
+		}
 	},
 
 	"10": {
@@ -218,7 +412,26 @@
 			"poem": "The calm, cool face of the river asked me for a kiss."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "",
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Thomas Bernhard",
+				"name": "The Loser"
+			},
+			"book2": {
+				"author": "Thomas Mann",
+				"name": "Doctor Faustus"
+			},
+			"book3": {
+				"author": "Daniil Kharms",
+				"name": "Incidences"
+			}
+		}
 	},
 
 	"11": {
@@ -238,7 +451,26 @@
 			"poem": "I had thought to pluck the flower of forgetfulness only to find it already blossoming in his heart."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "",
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Hermann Broch",
+				"name": "The Death of Virgil"
+			},
+			"book2": {
+				"author": "Venedict Yerofeyev",
+				"name": "Moscow-Petushki"
+			},
+			"book3": {
+				"author": "Leo Tolstoy",
+				"name": "The Death of Ivan Ilych"
+			}
+		}
 	},
 
 	"12": {
@@ -258,7 +490,26 @@
 			"poem": "Overtaken by darkness, I will lodge under a tree's branches; cherry blossoms will cushion me tonight."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "",
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Marguerite Duras",
+				"name": "The Lover"
+			},
+			"book2": {
+				"author": "Lucius Annaeus Seneca",
+				"name": "On Anger"
+			},
+			"book3": {
+				"author": "Rainer Maria Rilke",
+				"name": "Sonnets to Orpheus"
+			}
+		}
 	},
 
 	"13": {
@@ -278,7 +529,26 @@
 			"poem": "Both victor and vanquished are dewdrops, flashes of lightning, as we envision this life."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "",
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Aristophanes",
+				"name": "The Frogs"
+			},
+			"book2": {
+				"author": "Guy Debord",
+				"name": "The Society of the Spectacle"
+			},
+			"book3": {
+				"author": "Marcus Aurelius",
+				"name": "The Meditations"
+			}
+		}
 	},
 
 	"14": {
@@ -298,7 +568,26 @@
 			"poem": "Soundlessly they go, the herons passing by: arrows of snow filling the sky."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "",
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Joseph Delaney",
+				"name": "The Last Apprentice"
+			},
+			"book2": {
+				"author": "Bram Stoker",
+				"name": "Dracula"
+			},
+			"book3": {
+				"author": "Danko Popović",
+				"name": "The Book about Milutin"
+			}
+		}
 	},
 
 	"15": {
@@ -318,6 +607,25 @@
 			"poem": "My life was mere lunacy until the moon shone tonight."
 		},
 
-		"prayer": "O Lord Jesus Christ, the only-begotten Son of the eternal Father, Thou hast said, “Without me you can do nothing.” In faith I embrace Thy words, O Lord, and bow before Thy goodness. Help me to complete the work I am about to begin for Thine own glory: in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+		"book_quote": {
+			"paragraph": "",
+			"author": "",
+			"book": ""
+		},
+
+		"books": {
+			"book1": {
+				"author": "Hermann Hesse",
+				"name": "Siddhartha"
+			},
+			"book2": {
+				"author": "Albert Camus",
+				"name": "The Stranger"
+			},
+			"book3": {
+				"author": "Fyodor Dostoevsky",
+				"name": "Crime and Punishment"
+			}
+		}
 	}
 }

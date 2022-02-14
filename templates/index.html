@@ -10,16 +10,22 @@
 		<link rel="icon" href="{{ url_for('static', filename='flaticon.png') }}" />
 		<link rel="apple-touch-icon" href="{{ url_for('static', filename='flaticon.png') }}" />
 
-		<link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.min.css') }}" />
-		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.min.css') }}" />
-		<link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.min.css') }}" />
+		<link defer rel="stylesheet" href="{{ url_for('static', filename='css/normalize.min.css') }}" />
+		<link defer rel="stylesheet" href="{{ url_for('static', filename='css/main.min.css') }}" />
+		<link defer rel="stylesheet" href="{{ url_for('static', filename='css/homepage.min.css') }}" />
 	</head>
 
 	<body class="light-bg" id="body">
 		<div class="body">
 			<div class="app">
 				<h1 class="heading">Sophist Search :3</h1>
-				<button class="button_mode" id="btn_mode" onclick="ChangeMode()">
+				<button
+					type="button"
+					aria-label="Toggle dark or light mode"
+					class="button_mode"
+					id="btn_mode"
+					onclick="ChangeMode()"
+				>
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
 						<path
 							id="svg-path"
@@ -32,10 +38,42 @@
 
 				<div class="mainbox">
 					<div class="buttonbox">
-						<button class="button_active button_engine" id="btn_ddg" onclick="ActivateButton(0)">DuckDuckGo</button>
-						<button class="button_engine" id="btn_srx" onclick="ActivateButton(1)">Searx</button>
-						<button class="button_engine" id="btn_swc" onclick="ActivateButton(2)">Swisscows</button>
-						<button class="button_engine" id="btn_eco" onclick="ActivateButton(3)">Ecosia</button>
+						<button
+							type="button"
+							aria-label="Choose DuckDuckGo search engine"
+							class="button_active button_engine"
+							id="btn_ddg"
+							onclick="ActivateButton(0)"
+						>
+							DuckDuckGo
+						</button>
+						<button
+							type="button"
+							aria-label="Choose Searx search engine"
+							class="button_engine"
+							id="btn_srx"
+							onclick="ActivateButton(1)"
+						>
+							Searx
+						</button>
+						<button
+							type="button"
+							aria-label="Choose Swisscows search engine"
+							class="button_engine"
+							id="btn_swc"
+							onclick="ActivateButton(2)"
+						>
+							Swisscows
+						</button>
+						<button
+							type="button"
+							aria-label="Choose Ecosia search engine"
+							class="button_engine"
+							id="btn_eco"
+							onclick="ActivateButton(3)"
+						>
+							Ecosia
+						</button>
 					</div>
 					<form action="" name="search_url" class="form" id="search_form" method="GET">
 						<div class="main">
@@ -51,6 +89,8 @@
 						<img
 							src="{{ url_for('static', filename=url) }}"
 							alt="An image of a famous painting. Check paragraphs bellow for more info."
+							width="640"
+							height="360"
 						/>
 						<div class="infobox">
 							<p class="painter" id="painter">{{ painter }}</p>
@@ -60,15 +100,32 @@
 
 					<div class="textwall">
 						<div class="textbox">
-							<p>"{{quote}}"</p>
-							<p class="philosopher">- {{philosopher}}</p>
+							<p>"{{ quote }}"</p>
+							<p class="philosopher">{{ philosopher }}</p>
 						</div>
 						<div class="textbox">
-							<p>"{{poem}}"</p>
-							<p class="poet">- {{poet}}</p>
+							<p>"{{ poem }}"</p>
+							<p class="poet">{{ poet }}</p>
 						</div>
 						<div class="textbox">
-							<p>{{prayer}}</p>
+							<p>"{{ paragraph }}"</p>
+							<p class="author">{{ author }}</p>
+							<p class="source">{{ source }}</p>
+						</div>
+						<div class="textbox">
+							<p class="advice">Recommended books to read:</p>
+							<div class="recommended_book">
+								<p class="writer">{{ writer1 }}</p>
+								<p class="book">- {{ book1 }}</p>
+							</div>
+							<div class="recommended_book">
+								<p class="writer">{{ writer2 }}</p>
+								<p class="book">- {{ book2 }}</p>
+							</div>
+							<div class="recommended_book">
+								<p class="writer">{{ writer3 }}</p>
+								<p class="book">- {{ book3 }}</p>
+							</div>
 						</div>
 					</div>
 				</div>

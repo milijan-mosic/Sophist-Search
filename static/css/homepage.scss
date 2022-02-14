@@ -32,12 +32,17 @@ $light-main: #ffbc1f;
 		color: $black;
 	}
 
+	.infobox {
+		background-color: $white;
+	}
+
 	.textbox {
 		background-color: $white;
 	}
 
-	.infobox {
+	.recommended_book {
 		background-color: $white;
+		border: solid 1px $light-level-1;
 	}
 }
 
@@ -60,12 +65,17 @@ $light-main: #ffbc1f;
 		color: $white;
 	}
 
+	.infobox {
+		background-color: $dark-level-2;
+	}
+
 	.textbox {
 		background-color: $dark-level-2;
 	}
 
-	.infobox {
+	.recommended_book {
 		background-color: $dark-level-2;
+		border: solid 1px $dark-level-1;
 	}
 }
 
@@ -127,6 +137,10 @@ html {
 
 					margin-bottom: 4rem;
 					border-style: none;
+				}
+
+				.button_mode:hover {
+					cursor: pointer;
 				}
 
 				.mainbox {
@@ -271,6 +285,7 @@ html {
 							border-bottom-right-radius: 1.5rem;
 
 							.painter {
+								font-size: 1.25rem;
 								font-weight: bold;
 							}
 							.artwork {
@@ -295,12 +310,47 @@ html {
 							width: 100%;
 
 							.philosopher,
-							.poet {
+							.poet,
+							.author {
 								float: right;
 
-								margin-top: 1rem;
+								margin-top: 2rem;
 
+								font-size: 1.25rem;
 								font-weight: bold;
+							}
+
+							.author,
+							.source {
+								width: 100%;
+
+								float: left;
+
+								margin-top: 2rem;
+							}
+
+							.source {
+								margin-top: 0rem;
+							}
+
+							.advice {
+								font-style: italic;
+								margin-bottom: 1rem;
+							}
+
+							.recommended_book {
+								@extend %flex, %p-m, %rounded, %shadow-big;
+
+								margin: 0.5rem 0rem 0.5rem 0rem;
+
+								.writer {
+									font-size: 1.25rem;
+									font-weight: bold;
+								}
+
+								.book {
+									margin-left: 0.25rem;
+								}
 							}
 						}
 

@@ -2,7 +2,7 @@
 
 
 # LANGUAGES AND FRAMEWORKS
-	HTML5, Sass, TypeScript, Python, Flask, Surge, Heroku.
+	HTML5, Sass, JavaScript, Python, Flask, Heroku.
 
 # TOOLS AND SOFTWARES
 	VS Code, Firefox, Chromium, Linux, Alacritty.

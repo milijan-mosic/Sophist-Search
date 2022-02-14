@@ -1,7 +1,6 @@
 # LIBRARIES
 from flask import Flask, json, render_template
-import gunicorn
-import random
+import gunicorn, random
 
 
 # CONFIG
@@ -22,7 +21,7 @@ db_load.close()
 @app.route("/")
 def index():
 	# CHOP CHOP
-	for i in range(4):
+	for i in range(5):
 		lucky_number = str(RandomNumber())
 		sophist_box = db_prep[lucky_number]
 		if i == 0:
@@ -42,7 +41,32 @@ def index():
 			poem = haiku["poem"]
 
 		if i == 3:
-			prayer = sophist_box["prayer"]
+			sophist_box = db_prep["0"] # delete this line after you insert data
+			book_quote = sophist_box["book_quote"]
+			paragraph = book_quote["paragraph"]
+			author = book_quote["author"]
+			source = book_quote["book"]
+
+		if i == 4:
+			for i in range(3):
+				lucky_number = str(RandomNumber())
+				sophist_box = db_prep[lucky_number]
+				books = sophist_box["books"]
+
+				if i == 0:
+					recommended_book = books["book1"]
+					writer1 = recommended_book["author"]
+					book1 = recommended_book["name"]
+
+				if i == 1:
+					recommended_book = books["book2"]
+					writer2 = recommended_book["author"]
+					book2 = recommended_book["name"]
+				
+				if i == 2:
+					recommended_book = books["book3"]
+					writer3 = recommended_book["author"]
+					book3 = recommended_book["name"]
 
 
 	return render_template(
@@ -54,7 +78,16 @@ def index():
 		quote=quote,
 		poet=poet,
 		poem=poem,
-		prayer=prayer), 200
+		paragraph=paragraph,
+		author=author,
+		source=source,
+		writer1=writer1,
+		book1=book1,
+		writer2=writer2,
+		book2=book2,
+		writer3=writer3,
+		book3=book3
+	), 200
 
 
 # 404
